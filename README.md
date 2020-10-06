@@ -1,9 +1,9 @@
 # Save data from txt file to JSON
 ## Use
  It fills an object with info about the Sun and the Moon extracted from text files.
- The object is defined as:
+ The object is defined in a module like:
  ```
- let dataOBJ = {
+ export default {
   sources: {
     nodata: { },
     astropixels: {
@@ -21,14 +21,13 @@
       ],
     },
   },
-  moon: {},
-  sun: {},
 };
 ```
 It contains the details of the sources where the data is obtained from.
+The code adds new properties with data of the _Sun_ and of the _Moon_
 ## Data text files
 The info has been copied from the websites and pasted to a plain text file.
-## Future improvements
- - create independant modules for diferent data structures called only if the source is added to the _object_
 ## Notes
 All help is well appreciated.
+## Future improvements
+ - Avoid loading the data everytime a source is analyzed
