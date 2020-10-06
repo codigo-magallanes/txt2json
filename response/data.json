@@ -1,0 +1,2023 @@
+{
+  "sources": {
+    "nodata": {
+      "error": "need some more code to extract data from source."
+    },
+    "astropixels": {
+      "url": "http://astropixels.com/",
+      "files": [
+        "./sources/astropixels/sun_2001-2050(equinox-solstice)(astropixels).txt",
+        "./sources/astropixels/sun_2051-2100(equinox-solstice)(astropixels).txt"
+      ]
+    },
+    "calendario365": {
+      "url": "https://www.calendario-365.es/luna/lunar-fases.html",
+      "files": [
+        "./sources/calendario365/moon_2020(calendario365).txt",
+        "./sources/calendario365/moon_2021(calendario365).txt"
+      ]
+    }
+  },
+  "sun": {
+    "2001": {
+      "equiNorth": {
+        "gregDate": "2001-03-20T17:31:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2001-06-21T11:38:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2001-09-23T03:05:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2001-12-21T22:22:00.000Z"
+      }
+    },
+    "2002": {
+      "equiNorth": {
+        "gregDate": "2002-03-20T22:16:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2002-06-21T17:25:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2002-09-23T07:56:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2002-12-22T04:15:00.000Z"
+      }
+    },
+    "2003": {
+      "equiNorth": {
+        "gregDate": "2003-03-21T04:00:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2003-06-21T23:11:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2003-09-23T13:47:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2003-12-22T10:04:00.000Z"
+      }
+    },
+    "2004": {
+      "equiNorth": {
+        "gregDate": "2004-03-20T09:49:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2004-06-21T04:57:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2004-09-22T20:30:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2004-12-21T15:42:00.000Z"
+      }
+    },
+    "2005": {
+      "equiNorth": {
+        "gregDate": "2005-03-20T16:34:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2005-06-21T10:46:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2005-09-23T02:23:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2005-12-21T21:35:00.000Z"
+      }
+    },
+    "2006": {
+      "equiNorth": {
+        "gregDate": "2006-03-20T22:25:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2006-06-21T16:26:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2006-09-23T08:04:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2006-12-22T03:22:00.000Z"
+      }
+    },
+    "2007": {
+      "equiNorth": {
+        "gregDate": "2007-03-21T04:07:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2007-06-21T22:06:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2007-09-23T13:51:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2007-12-22T09:08:00.000Z"
+      }
+    },
+    "2008": {
+      "equiNorth": {
+        "gregDate": "2008-03-20T09:49:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2008-06-21T04:00:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2008-09-22T19:45:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2008-12-21T15:04:00.000Z"
+      }
+    },
+    "2009": {
+      "equiNorth": {
+        "gregDate": "2009-03-20T15:44:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2009-06-21T09:45:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2009-09-23T01:18:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2009-12-21T20:47:00.000Z"
+      }
+    },
+    "2010": {
+      "equiNorth": {
+        "gregDate": "2010-03-20T20:32:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2010-06-21T15:28:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2010-09-23T07:09:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2010-12-22T02:38:00.000Z"
+      }
+    },
+    "2011": {
+      "equiNorth": {
+        "gregDate": "2011-03-21T02:21:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2011-06-21T21:16:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2011-09-23T13:05:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2011-12-22T08:30:00.000Z"
+      }
+    },
+    "2012": {
+      "equiNorth": {
+        "gregDate": "2012-03-20T08:15:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2012-06-21T03:08:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2012-09-22T18:49:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2012-12-21T14:12:00.000Z"
+      }
+    },
+    "2013": {
+      "equiNorth": {
+        "gregDate": "2013-03-20T14:02:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2013-06-21T09:04:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2013-09-23T00:44:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2013-12-21T20:11:00.000Z"
+      }
+    },
+    "2014": {
+      "equiNorth": {
+        "gregDate": "2014-03-20T19:57:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2014-06-21T14:52:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2014-09-23T06:30:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2014-12-22T02:03:00.000Z"
+      }
+    },
+    "2015": {
+      "equiNorth": {
+        "gregDate": "2015-03-21T01:45:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2015-06-21T20:38:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2015-09-23T12:20:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2015-12-22T07:48:00.000Z"
+      }
+    },
+    "2016": {
+      "equiNorth": {
+        "gregDate": "2016-03-20T07:31:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2016-06-21T02:35:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2016-09-22T18:21:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2016-12-21T13:45:00.000Z"
+      }
+    },
+    "2017": {
+      "equiNorth": {
+        "gregDate": "2017-03-20T13:29:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2017-06-21T08:25:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2017-09-23T00:02:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2017-12-21T19:29:00.000Z"
+      }
+    },
+    "2018": {
+      "equiNorth": {
+        "gregDate": "2018-03-20T19:15:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2018-06-21T14:07:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2018-09-23T05:54:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2018-12-22T01:22:00.000Z"
+      }
+    },
+    "2019": {
+      "equiNorth": {
+        "gregDate": "2019-03-21T00:58:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2019-06-21T19:54:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2019-09-23T11:50:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2019-12-22T07:19:00.000Z"
+      }
+    },
+    "2020": {
+      "equiNorth": {
+        "gregDate": "2020-03-20T06:50:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2020-06-21T01:43:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2020-09-22T17:31:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2020-12-21T13:03:00.000Z"
+      }
+    },
+    "2021": {
+      "equiNorth": {
+        "gregDate": "2021-03-20T12:37:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2021-06-21T07:32:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2021-09-22T23:21:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2021-12-21T18:59:00.000Z"
+      }
+    },
+    "2022": {
+      "equiNorth": {
+        "gregDate": "2022-03-20T18:33:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2022-06-21T13:14:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2022-09-23T05:04:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2022-12-22T00:48:00.000Z"
+      }
+    },
+    "2023": {
+      "equiNorth": {
+        "gregDate": "2023-03-21T00:25:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2023-06-21T18:58:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2023-09-23T10:50:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2023-12-22T06:28:00.000Z"
+      }
+    },
+    "2024": {
+      "equiNorth": {
+        "gregDate": "2024-03-20T06:07:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2024-06-21T00:51:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2024-09-22T16:44:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2024-12-21T12:20:00.000Z"
+      }
+    },
+    "2025": {
+      "equiNorth": {
+        "gregDate": "2025-03-20T12:02:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2025-06-21T06:42:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2025-09-22T22:20:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2025-12-21T18:03:00.000Z"
+      }
+    },
+    "2026": {
+      "equiNorth": {
+        "gregDate": "2026-03-20T17:46:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2026-06-21T12:25:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2026-09-23T04:06:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2026-12-21T23:50:00.000Z"
+      }
+    },
+    "2027": {
+      "equiNorth": {
+        "gregDate": "2027-03-20T23:25:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2027-06-21T18:11:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2027-09-23T10:02:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2027-12-22T05:43:00.000Z"
+      }
+    },
+    "2028": {
+      "equiNorth": {
+        "gregDate": "2028-03-20T05:17:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2028-06-21T00:02:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2028-09-22T15:45:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2028-12-21T11:20:00.000Z"
+      }
+    },
+    "2029": {
+      "equiNorth": {
+        "gregDate": "2029-03-20T11:01:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2029-06-21T05:48:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2029-09-22T21:37:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2029-12-21T17:14:00.000Z"
+      }
+    },
+    "2030": {
+      "equiNorth": {
+        "gregDate": "2030-03-20T16:51:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2030-06-21T11:31:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2030-09-23T03:27:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2030-12-21T23:09:00.000Z"
+      }
+    },
+    "2031": {
+      "equiNorth": {
+        "gregDate": "2031-03-20T22:41:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2031-06-21T17:17:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2031-09-23T09:15:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2031-12-22T04:56:00.000Z"
+      }
+    },
+    "2032": {
+      "equiNorth": {
+        "gregDate": "2032-03-20T04:23:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2032-06-20T23:09:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2032-09-22T15:11:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2032-12-21T10:57:00.000Z"
+      }
+    },
+    "2033": {
+      "equiNorth": {
+        "gregDate": "2033-03-20T10:23:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2033-06-21T05:01:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2033-09-22T20:52:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2033-12-21T16:45:00.000Z"
+      }
+    },
+    "2034": {
+      "equiNorth": {
+        "gregDate": "2034-03-20T16:18:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2034-06-21T10:45:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2034-09-23T02:41:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2034-12-21T22:35:00.000Z"
+      }
+    },
+    "2035": {
+      "equiNorth": {
+        "gregDate": "2035-03-20T22:03:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2035-06-21T16:33:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2035-09-23T08:39:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2035-12-22T04:31:00.000Z"
+      }
+    },
+    "2036": {
+      "equiNorth": {
+        "gregDate": "2036-03-20T04:02:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2036-06-20T22:31:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2036-09-22T14:23:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2036-12-21T10:12:00.000Z"
+      }
+    },
+    "2037": {
+      "equiNorth": {
+        "gregDate": "2037-03-20T09:50:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2037-06-21T04:22:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2037-09-22T20:13:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2037-12-21T16:08:00.000Z"
+      }
+    },
+    "2038": {
+      "equiNorth": {
+        "gregDate": "2038-03-20T15:40:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2038-06-21T10:09:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2038-09-23T02:02:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2038-12-21T22:01:00.000Z"
+      }
+    },
+    "2039": {
+      "equiNorth": {
+        "gregDate": "2039-03-20T21:32:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2039-06-21T15:58:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2039-09-23T07:50:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2039-12-22T03:41:00.000Z"
+      }
+    },
+    "2040": {
+      "equiNorth": {
+        "gregDate": "2040-03-20T03:11:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2040-06-20T21:46:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2040-09-22T13:44:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2040-12-21T09:33:00.000Z"
+      }
+    },
+    "2041": {
+      "equiNorth": {
+        "gregDate": "2041-03-20T09:07:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2041-06-21T03:37:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2041-09-22T19:27:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2041-12-21T15:19:00.000Z"
+      }
+    },
+    "2042": {
+      "equiNorth": {
+        "gregDate": "2042-03-20T14:53:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2042-06-21T09:16:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2042-09-23T01:11:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2042-12-21T21:04:00.000Z"
+      }
+    },
+    "2043": {
+      "equiNorth": {
+        "gregDate": "2043-03-20T20:29:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2043-06-21T14:59:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2043-09-23T07:07:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2043-12-22T03:02:00.000Z"
+      }
+    },
+    "2044": {
+      "equiNorth": {
+        "gregDate": "2044-03-20T02:20:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2044-06-20T20:50:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2044-09-22T12:47:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2044-12-21T08:43:00.000Z"
+      }
+    },
+    "2045": {
+      "equiNorth": {
+        "gregDate": "2045-03-20T08:08:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2045-06-21T02:34:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2045-09-22T18:33:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2045-12-21T14:36:00.000Z"
+      }
+    },
+    "2046": {
+      "equiNorth": {
+        "gregDate": "2046-03-20T13:58:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2046-06-21T08:15:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2046-09-23T00:22:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2046-12-21T20:28:00.000Z"
+      }
+    },
+    "2047": {
+      "equiNorth": {
+        "gregDate": "2047-03-20T19:52:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2047-06-21T14:02:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2047-09-23T06:07:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2047-12-22T02:07:00.000Z"
+      }
+    },
+    "2048": {
+      "equiNorth": {
+        "gregDate": "2048-03-20T01:34:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2048-06-20T19:54:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2048-09-22T12:01:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2048-12-21T08:02:00.000Z"
+      }
+    },
+    "2049": {
+      "equiNorth": {
+        "gregDate": "2049-03-20T07:28:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2049-06-21T01:47:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2049-09-22T17:42:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2049-12-21T13:51:00.000Z"
+      }
+    },
+    "2050": {
+      "equiNorth": {
+        "gregDate": "2050-03-20T13:20:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2050-06-21T07:33:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2050-09-22T23:29:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2050-12-21T19:39:00.000Z"
+      }
+    },
+    "2051": {
+      "equiNorth": {
+        "gregDate": "2051-03-20T18:58:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2051-06-21T13:17:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2051-09-23T05:26:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2051-12-22T01:33:00.000Z"
+      }
+    },
+    "2052": {
+      "equiNorth": {
+        "gregDate": "2052-03-20T00:56:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2052-06-20T19:16:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2052-09-22T11:16:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2052-12-21T07:18:00.000Z"
+      }
+    },
+    "2053": {
+      "equiNorth": {
+        "gregDate": "2053-03-20T06:46:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2053-06-21T01:03:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2053-09-22T17:05:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2053-12-21T13:09:00.000Z"
+      }
+    },
+    "2054": {
+      "equiNorth": {
+        "gregDate": "2054-03-20T12:35:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2054-06-21T06:47:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2054-09-22T23:00:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2054-12-21T19:10:00.000Z"
+      }
+    },
+    "2055": {
+      "equiNorth": {
+        "gregDate": "2055-03-20T18:28:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2055-06-21T12:39:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2055-09-23T04:48:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2055-12-22T00:56:00.000Z"
+      }
+    },
+    "2056": {
+      "equiNorth": {
+        "gregDate": "2056-03-20T00:11:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2056-06-20T18:29:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2056-09-22T10:40:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2056-12-21T06:52:00.000Z"
+      }
+    },
+    "2057": {
+      "equiNorth": {
+        "gregDate": "2057-03-20T06:08:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2057-06-21T00:19:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2057-09-22T16:23:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2057-12-21T12:42:00.000Z"
+      }
+    },
+    "2058": {
+      "equiNorth": {
+        "gregDate": "2058-03-20T12:04:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2058-06-21T06:03:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2058-09-22T22:07:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2058-12-21T18:24:00.000Z"
+      }
+    },
+    "2059": {
+      "equiNorth": {
+        "gregDate": "2059-03-20T17:44:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2059-06-21T11:47:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2059-09-23T04:03:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2059-12-22T00:18:00.000Z"
+      }
+    },
+    "2060": {
+      "equiNorth": {
+        "gregDate": "2060-03-19T23:37:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2060-06-20T17:44:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2060-09-22T09:47:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2060-12-21T06:00:00.000Z"
+      }
+    },
+    "2061": {
+      "equiNorth": {
+        "gregDate": "2061-03-20T05:26:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2061-06-20T23:33:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2061-09-22T15:31:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2061-12-21T11:49:00.000Z"
+      }
+    },
+    "2062": {
+      "equiNorth": {
+        "gregDate": "2062-03-20T11:07:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2062-06-21T05:10:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2062-09-22T21:19:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2062-12-21T17:42:00.000Z"
+      }
+    },
+    "2063": {
+      "equiNorth": {
+        "gregDate": "2063-03-20T16:59:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2063-06-21T11:02:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2063-09-23T03:08:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2063-12-21T23:22:00.000Z"
+      }
+    },
+    "2064": {
+      "equiNorth": {
+        "gregDate": "2064-03-19T22:40:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2064-06-20T16:47:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2064-09-22T08:58:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2064-12-21T05:10:00.000Z"
+      }
+    },
+    "2065": {
+      "equiNorth": {
+        "gregDate": "2065-03-20T04:27:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2065-06-20T22:31:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2065-09-22T14:41:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2065-12-21T10:59:00.000Z"
+      }
+    },
+    "2066": {
+      "equiNorth": {
+        "gregDate": "2066-03-20T10:19:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2066-06-21T04:16:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2066-09-22T20:27:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2066-12-21T16:45:00.000Z"
+      }
+    },
+    "2067": {
+      "equiNorth": {
+        "gregDate": "2067-03-20T15:55:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2067-06-21T09:56:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2067-09-23T02:20:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2067-12-21T22:44:00.000Z"
+      }
+    },
+    "2068": {
+      "equiNorth": {
+        "gregDate": "2068-03-19T21:51:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2068-06-20T15:55:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2068-09-22T08:09:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2068-12-21T04:34:00.000Z"
+      }
+    },
+    "2069": {
+      "equiNorth": {
+        "gregDate": "2069-03-20T03:44:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2069-06-20T21:40:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2069-09-22T13:51:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2069-12-21T10:21:00.000Z"
+      }
+    },
+    "2070": {
+      "equiNorth": {
+        "gregDate": "2070-03-20T09:35:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2070-06-21T03:22:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2070-09-22T19:45:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2070-12-21T16:19:00.000Z"
+      }
+    },
+    "2071": {
+      "equiNorth": {
+        "gregDate": "2071-03-20T15:36:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2071-06-21T09:21:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2071-09-23T01:39:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2071-12-21T22:05:00.000Z"
+      }
+    },
+    "2072": {
+      "equiNorth": {
+        "gregDate": "2072-03-19T21:19:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2072-06-20T15:12:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2072-09-22T07:26:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2072-12-21T03:54:00.000Z"
+      }
+    },
+    "2073": {
+      "equiNorth": {
+        "gregDate": "2073-03-20T03:12:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2073-06-20T21:06:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2073-09-22T13:14:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2073-12-21T09:50:00.000Z"
+      }
+    },
+    "2074": {
+      "equiNorth": {
+        "gregDate": "2074-03-20T09:09:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2074-06-21T02:59:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2074-09-22T19:04:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2074-12-21T15:36:00.000Z"
+      }
+    },
+    "2075": {
+      "equiNorth": {
+        "gregDate": "2075-03-20T14:48:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2075-06-21T08:41:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2075-09-23T01:00:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2075-12-21T21:28:00.000Z"
+      }
+    },
+    "2076": {
+      "equiNorth": {
+        "gregDate": "2076-03-19T20:37:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2076-06-20T14:35:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2076-09-22T06:48:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2076-12-21T03:12:00.000Z"
+      }
+    },
+    "2077": {
+      "equiNorth": {
+        "gregDate": "2077-03-20T02:30:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2077-06-20T20:23:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2077-09-22T12:35:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2077-12-21T09:00:00.000Z"
+      }
+    },
+    "2078": {
+      "equiNorth": {
+        "gregDate": "2078-03-20T08:11:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2078-06-21T01:58:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2078-09-22T18:25:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2078-12-21T14:59:00.000Z"
+      }
+    },
+    "2079": {
+      "equiNorth": {
+        "gregDate": "2079-03-20T14:03:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2079-06-21T07:51:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2079-09-23T00:15:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2079-12-21T20:46:00.000Z"
+      }
+    },
+    "2080": {
+      "equiNorth": {
+        "gregDate": "2080-03-19T19:43:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2080-06-20T13:33:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2080-09-22T05:55:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2080-12-21T02:31:00.000Z"
+      }
+    },
+    "2081": {
+      "equiNorth": {
+        "gregDate": "2081-03-20T01:34:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2081-06-20T19:16:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2081-09-22T11:38:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2081-12-21T08:22:00.000Z"
+      }
+    },
+    "2082": {
+      "equiNorth": {
+        "gregDate": "2082-03-20T07:32:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2082-06-21T01:04:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2082-09-22T17:24:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2082-12-21T14:06:00.000Z"
+      }
+    },
+    "2083": {
+      "equiNorth": {
+        "gregDate": "2083-03-20T13:08:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2083-06-21T06:41:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2083-09-22T23:10:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2083-12-21T19:51:00.000Z"
+      }
+    },
+    "2084": {
+      "equiNorth": {
+        "gregDate": "2084-03-19T18:58:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2084-06-20T12:39:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2084-09-22T04:58:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2084-12-21T01:40:00.000Z"
+      }
+    },
+    "2085": {
+      "equiNorth": {
+        "gregDate": "2085-03-20T00:53:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2085-06-20T18:33:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2085-09-22T10:43:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2085-12-21T07:29:00.000Z"
+      }
+    },
+    "2086": {
+      "equiNorth": {
+        "gregDate": "2086-03-20T06:36:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2086-06-21T00:11:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2086-09-22T16:33:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2086-12-21T13:24:00.000Z"
+      }
+    },
+    "2087": {
+      "equiNorth": {
+        "gregDate": "2087-03-20T12:27:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2087-06-21T06:05:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2087-09-22T22:27:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2087-12-21T19:07:00.000Z"
+      }
+    },
+    "2088": {
+      "equiNorth": {
+        "gregDate": "2088-03-19T18:16:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2088-06-20T11:57:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2088-09-22T04:18:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2088-12-21T00:56:00.000Z"
+      }
+    },
+    "2089": {
+      "equiNorth": {
+        "gregDate": "2089-03-20T00:07:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2089-06-20T17:43:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2089-09-22T10:07:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2089-12-21T06:53:00.000Z"
+      }
+    },
+    "2090": {
+      "equiNorth": {
+        "gregDate": "2090-03-20T06:03:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2090-06-20T23:37:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2090-09-22T16:01:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2090-12-21T12:45:00.000Z"
+      }
+    },
+    "2091": {
+      "equiNorth": {
+        "gregDate": "2091-03-20T11:40:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2091-06-21T05:17:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2091-09-22T21:49:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2091-12-21T18:37:00.000Z"
+      }
+    },
+    "2092": {
+      "equiNorth": {
+        "gregDate": "2092-03-19T17:33:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2092-06-20T11:14:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2092-09-22T03:41:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2092-12-21T00:31:00.000Z"
+      }
+    },
+    "2093": {
+      "equiNorth": {
+        "gregDate": "2093-03-19T23:35:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2093-06-20T17:08:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2093-09-22T09:30:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2093-12-21T06:21:00.000Z"
+      }
+    },
+    "2094": {
+      "equiNorth": {
+        "gregDate": "2094-03-20T05:20:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2094-06-20T22:40:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2094-09-22T15:15:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2094-12-21T12:11:00.000Z"
+      }
+    },
+    "2095": {
+      "equiNorth": {
+        "gregDate": "2095-03-20T11:14:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2095-06-21T04:38:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2095-09-22T21:10:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2095-12-21T18:00:00.000Z"
+      }
+    },
+    "2096": {
+      "equiNorth": {
+        "gregDate": "2096-03-19T17:03:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2096-06-20T10:31:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2096-09-22T02:55:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2096-12-20T23:46:00.000Z"
+      }
+    },
+    "2097": {
+      "equiNorth": {
+        "gregDate": "2097-03-19T22:49:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2097-06-20T16:14:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2097-09-22T08:37:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2097-12-21T05:38:00.000Z"
+      }
+    },
+    "2098": {
+      "equiNorth": {
+        "gregDate": "2098-03-20T04:38:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2098-06-20T22:01:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2098-09-22T14:22:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2098-12-21T11:19:00.000Z"
+      }
+    },
+    "2099": {
+      "equiNorth": {
+        "gregDate": "2099-03-20T10:17:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2099-06-21T03:41:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2099-09-22T20:10:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2099-12-21T17:04:00.000Z"
+      }
+    },
+    "2100": {
+      "equiNorth": {
+        "gregDate": "2100-03-20T16:04:00.000Z"
+      },
+      "solsNorth": {
+        "gregDate": "2100-06-21T09:32:00.000Z"
+      },
+      "equiSouth": {
+        "gregDate": "2100-09-23T02:00:00.000Z"
+      },
+      "solsSouth": {
+        "gregDate": "2100-12-21T22:51:00.000Z"
+      }
+    }
+  },
+  "moon": {
+    "2020": [
+      {
+        "gregDate": "2020-01-03T05:46:52.000Z",
+        "dist": 404720,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-01-10T20:23:14.000Z",
+        "dist": 375551,
+        "phase": "luna llena",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-01-17T14:00:35.000Z",
+        "dist": 365446,
+        "phase": "cuarto menguante",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-01-24T22:44:11.000Z",
+        "dist": 395643,
+        "phase": "luna nueva",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-02-02T02:43:28.000Z",
+        "dist": 399638,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-02-09T08:34:35.000Z",
+        "dist": 368086,
+        "phase": "luna llena",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-02-15T23:19:09.000Z",
+        "dist": 371193,
+        "phase": "cuarto menguante",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-02-23T16:33:44.000Z",
+        "dist": 402659,
+        "phase": "luna nueva",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-03-02T20:58:38.000Z",
+        "dist": 391152,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-03-09T18:48:35.000Z",
+        "dist": 363972,
+        "phase": "luna llena",
+        "special": "super luna"
+      },
+      {
+        "gregDate": "2020-03-16T10:35:39.000Z",
+        "dist": 379654,
+        "phase": "cuarto menguante",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-03-24T10:29:36.000Z",
+        "dist": 405482,
+        "phase": "luna nueva",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-04-01T12:21:52.000Z",
+        "dist": 381507,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-04-08T04:35:36.000Z",
+        "dist": 363595,
+        "phase": "luna llena",
+        "special": "super luna"
+      },
+      {
+        "gregDate": "2020-04-15T00:56:57.000Z",
+        "dist": 389226,
+        "phase": "cuarto menguante",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-04-23T04:27:00.000Z",
+        "dist": 403628,
+        "phase": "luna nueva",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-04-30T22:38:44.000Z",
+        "dist": 372866,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-05-07T12:45:35.000Z",
+        "dist": 366824,
+        "phase": "luna llena",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-05-14T16:03:18.000Z",
+        "dist": 397862,
+        "phase": "cuarto menguante",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-05-22T19:39:49.000Z",
+        "dist": 397706,
+        "phase": "luna nueva",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-05-30T05:30:22.000Z",
+        "dist": 366659,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-06-05T21:12:43.000Z",
+        "dist": 373171,
+        "phase": "luna llena",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-06-13T08:24:59.000Z",
+        "dist": 403686,
+        "phase": "cuarto menguante",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-06-21T08:42:16.000Z",
+        "dist": 389168,
+        "phase": "luna nueva",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-06-28T10:16:30.000Z",
+        "dist": 363582,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-07-05T06:44:57.000Z",
+        "dist": 381705,
+        "phase": "luna llena",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-07-13T01:31:28.000Z",
+        "dist": 405486,
+        "phase": "cuarto menguante",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-07-20T19:33:36.000Z",
+        "dist": 379915,
+        "phase": "luna nueva",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-07-27T14:33:47.000Z",
+        "dist": 363906,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-08-03T17:59:38.000Z",
+        "dist": 390962,
+        "phase": "luna llena",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-08-11T18:47:48.000Z",
+        "dist": 402869,
+        "phase": "cuarto menguante",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-08-19T04:42:15.000Z",
+        "dist": 371739,
+        "phase": "luna nueva",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-08-25T19:59:11.000Z",
+        "dist": 367644,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-09-02T07:23:12.000Z",
+        "dist": 399109,
+        "phase": "luna llena",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-09-10T11:28:18.000Z",
+        "dist": 396329,
+        "phase": "cuarto menguante",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-09-17T13:00:59.000Z",
+        "dist": 365948,
+        "phase": "luna nueva",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-09-24T03:56:34.000Z",
+        "dist": 374481,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-10-01T23:06:55.000Z",
+        "dist": 404339,
+        "phase": "luna llena",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-10-10T02:41:24.000Z",
+        "dist": 387283,
+        "phase": "cuarto menguante",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-10-16T21:32:14.000Z",
+        "dist": 363376,
+        "phase": "luna nueva",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-10-23T15:24:17.000Z",
+        "dist": 383528,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-10-31T15:51:29.000Z",
+        "dist": 405290,
+        "phase": "luna llena",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-11-08T14:47:38.000Z",
+        "dist": 377767,
+        "phase": "cuarto menguante",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-11-15T06:08:54.000Z",
+        "dist": 364518,
+        "phase": "luna nueva",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-11-22T05:45:54.000Z",
+        "dist": 393127,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-11-30T10:32:04.000Z",
+        "dist": 401475,
+        "phase": "luna llena",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-12-08T01:37:59.000Z",
+        "dist": 369764,
+        "phase": "cuarto menguante",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-12-14T17:18:45.000Z",
+        "dist": 369453,
+        "phase": "luna nueva",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-12-22T00:42:31.000Z",
+        "dist": 401055,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2020-12-30T04:30:24.000Z",
+        "dist": 393694,
+        "phase": "luna llena",
+        "special": ""
+      }
+    ],
+    "2021": [
+      {
+        "gregDate": "2021-01-06T10:38:35.000Z",
+        "dist": 364700,
+        "phase": "cuarto menguante",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-01-13T06:02:37.000Z",
+        "dist": 377530,
+        "phase": "luna nueva",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-01-20T22:03:35.000Z",
+        "dist": 405203,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-01-28T20:18:35.000Z",
+        "dist": 383977,
+        "phase": "luna llena",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-02-04T18:38:42.000Z",
+        "dist": 363344,
+        "phase": "cuarto menguante",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-02-11T20:08:11.000Z",
+        "dist": 387210,
+        "phase": "luna nueva",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-02-19T19:49:06.000Z",
+        "dist": 404411,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-02-27T09:19:36.000Z",
+        "dist": 374706,
+        "phase": "luna llena",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-03-06T02:32:00.000Z",
+        "dist": 365863,
+        "phase": "cuarto menguante",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-03-13T11:23:32.000Z",
+        "dist": 396377,
+        "phase": "luna nueva",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-03-21T15:41:46.000Z",
+        "dist": 398986,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-03-28T20:50:04.000Z",
+        "dist": 367679,
+        "phase": "luna llena",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-04-04T12:04:12.000Z",
+        "dist": 371822,
+        "phase": "cuarto menguante",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-04-12T04:32:56.000Z",
+        "dist": 402957,
+        "phase": "luna nueva",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-04-20T09:00:01.000Z",
+        "dist": 390539,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-04-27T05:33:04.000Z",
+        "dist": 363869,
+        "phase": "luna llena",
+        "special": "super luna"
+      },
+      {
+        "gregDate": "2021-05-03T21:51:43.000Z",
+        "dist": 380195,
+        "phase": "cuarto menguante",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-05-11T21:01:33.000Z",
+        "dist": 405497,
+        "phase": "luna nueva",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-05-19T21:13:13.000Z",
+        "dist": 381202,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-05-26T13:14:51.000Z",
+        "dist": 363645,
+        "phase": "luna llena",
+        "special": "super luna"
+      },
+      {
+        "gregDate": "2021-06-02T09:26:04.000Z",
+        "dist": 389479,
+        "phase": "cuarto menguante",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-06-10T12:54:05.000Z",
+        "dist": 403519,
+        "phase": "luna nueva",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-06-18T05:54:44.000Z",
+        "dist": 372820,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-06-24T20:40:14.000Z",
+        "dist": 366936,
+        "phase": "luna llena",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-07-01T23:12:39.000Z",
+        "dist": 397899,
+        "phase": "cuarto menguante",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-07-10T03:17:43.000Z",
+        "dist": 397590,
+        "phase": "luna nueva",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-07-17T12:11:37.000Z",
+        "dist": 366674,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-07-24T04:37:27.000Z",
+        "dist": 373276,
+        "phase": "luna llena",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-07-31T15:18:16.000Z",
+        "dist": 403691,
+        "phase": "cuarto menguante",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-08-08T15:50:46.000Z",
+        "dist": 389108,
+        "phase": "luna nueva",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-08-15T17:21:04.000Z",
+        "dist": 363574,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-08-22T14:02:15.000Z",
+        "dist": 381785,
+        "phase": "luna llena",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-08-30T09:15:02.000Z",
+        "dist": 405479,
+        "phase": "cuarto menguante",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-09-07T02:52:01.000Z",
+        "dist": 379856,
+        "phase": "luna nueva",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-09-13T22:41:20.000Z",
+        "dist": 363961,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-09-21T01:54:44.000Z",
+        "dist": 391109,
+        "phase": "luna llena",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-09-29T03:58:24.000Z",
+        "dist": 402691,
+        "phase": "cuarto menguante",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-10-06T13:05:44.000Z",
+        "dist": 371570,
+        "phase": "luna nueva",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-10-13T05:27:35.000Z",
+        "dist": 367910,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-10-20T16:57:41.000Z",
+        "dist": 399395,
+        "phase": "luna llena",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-10-28T22:06:44.000Z",
+        "dist": 395849,
+        "phase": "cuarto menguante",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-11-04T22:15:26.000Z",
+        "dist": 365707,
+        "phase": "luna nueva",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-11-11T13:48:22.000Z",
+        "dist": 375040,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-11-19T09:59:41.000Z",
+        "dist": 404574,
+        "phase": "luna llena",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-11-27T13:29:51.000Z",
+        "dist": 386540,
+        "phase": "cuarto menguante",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-12-04T08:44:30.000Z",
+        "dist": 363321,
+        "phase": "luna nueva",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-12-11T02:37:32.000Z",
+        "dist": 384336,
+        "phase": "cuarto creciente",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-12-19T05:37:58.000Z",
+        "dist": 405114,
+        "phase": "luna llena",
+        "special": ""
+      },
+      {
+        "gregDate": "2021-12-27T03:26:00.000Z",
+        "dist": 376932,
+        "phase": "cuarto menguante",
+        "special": ""
+      }
+    ]
+  }
+}
