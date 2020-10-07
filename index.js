@@ -1,8 +1,8 @@
 import dataOBJ from "./js/dataBase.js";
-import { linesToArray, dataToSunPhases } from "./sources/astropixels/index.js";
+import { linesToArray, dataToSunPhases, addNSCDates } from "./sources/astropixels/index.js";
 import { linesToData, dataToMoonPhases } from "./sources/calendario365/index.js";
 
-let astroData = { ...dataOBJ };
+let astroData = {};
 let config = {
   /**
    * @values ('json' | 'locale' | 'ms' | 'any' ) Output format of dates if not stablished beforehand
@@ -49,6 +49,7 @@ for (source in dataOBJ.sources) {
           .then(getTextLines)
           .then(linesToArray)
           .then(dataToSunPhases)
+          .then(addNSCDates)
           .then(addData)
           .then(showData);
       });

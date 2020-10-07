@@ -1,4 +1,4 @@
-import { sunPhases, saveDate } from '/js/dates.js'
+import { sunPhases, saveDate, setTimeToZero, setDayOfYear } from '/js/dates.js'
 
 let sunData = {}
 // ASTROPIXELS
@@ -10,10 +10,9 @@ function linesToArray(arr) {
       .split(",")
   );
 }
+
 function dataToSunPhases(arr) {
-  let obj = {},
-    i,
-    year;
+  let obj = {}, i, year;
   arr.forEach((a) => {
     year = Number(a[0]);
     if (year > 0) {
@@ -23,21 +22,39 @@ function dataToSunPhases(arr) {
         let obj = {
           year,
           date: `${a[i + 1]}`,
+          UTCTimeZone: '000Z',
           format: "json",
-          lang: "",
         };
         gregDate = saveDate(obj);
 
-        phases[sunPhases[i]] = {
-          gregDate,
-        };
+        phases[sunPhases[i]] = { gregDate };
       }
       sunData[year] = { ...phases };
     } else {
     }
   });
   console.log({sunData})
-  return { sun: sunData};
+  return sunData;
 }
 
-export { dataToSunPhases, linesToArray };
+function addNSCDates(sunData) {
+  let newYearsDate, year, d, obj = {}
+  for (year in sunData) {
+    obj = sunData[year]
+    newYearsDate = setTimeToZero(obj[sunPhases[0]].gregDate)
+
+    obj['newYearsDate'] = newYearsDate
+
+    obj[sunPhases[0]]['day'] = setDayOfYear(obj[sunPhases[0]].gregDate, newYearsDate)
+    obj[sunPhases[1]]['day'] = setDayOfYear(obj[sunPhases[1]].gregDate, newYearsDate)
+    obj[sunPhases[2]]['day'] = setDayOfYear(obj[sunPhases[2]].gregDate, newYearsDate)
+    obj[sunPhases[3]]['day'] = setDayOfYear(obj[sunPhases[3]].gregDate, newYearsDate)
+
+    //newYearsDate = new Date(d.getFullYear(), d.getMonth() - 1, d.getDate())
+    console.log({year, newYearsDate, obj})
+    sunData[year] = obj
+  }
+  return { sun: sunData }
+}
+
+export { dataToSunPhases, linesToArray, addNSCDates };
