@@ -1,4 +1,36 @@
 # txt2JSON
+## v0.1.3
+ ### Added
+  - LICENSE
+  - addNSCDates()
+  ```js
+function addNSCDates(sunData) {
+  let newYearsDate, year, d, obj = {}
+  for (year in sunData) {
+    obj = sunData[year]
+    newYearsDate = setTimeToZero(obj[sunPhases[0]].gregDate)
+
+    obj['newYearsDate'] = newYearsDate
+
+    obj[sunPhases[0]]['day'] = setDayOfYear(obj[sunPhases[0]].gregDate, newYearsDate)
+    obj[sunPhases[1]]['day'] = setDayOfYear(obj[sunPhases[1]].gregDate, newYearsDate)
+    obj[sunPhases[2]]['day'] = setDayOfYear(obj[sunPhases[2]].gregDate, newYearsDate)
+    obj[sunPhases[3]]['day'] = setDayOfYear(obj[sunPhases[3]].gregDate, newYearsDate)
+
+    //newYearsDate = new Date(d.getFullYear(), d.getMonth() - 1, d.getDate())
+    console.log({year, newYearsDate, obj})
+    sunData[year] = obj
+  }
+  return { sun: sunData }
+}
+  ```
+ ### Changed
+  - dataBase not added to output. Only data.
+ ### Fixed
+  - dates in _data.json_ now OK with UTC times.
+## v0.1.2
+ ### Fixed
+  - Times referred to UTC again.
 ## v0.1.1
  ### Changed
   - Files structure all changed
