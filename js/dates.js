@@ -79,17 +79,30 @@ function monthNameToEng(lang, dateTime) {
     return dateTime;
   }
     
-function saveDate({ year, date, UTCTime, format, lang }) {
+function saveDate({ year, date, UTCTimeZone, format, lang }) {
     let dateTime = lang ? monthNameToEng(lang, date) : date;
-    let setDate = formDate({ year, dateTime, UTCTime });
+    let setDate = formDate({ year, dateTime, UTCTimeZone });
     return saveThisDate(setDate, format);
   }
   
-  function formDate({ year, dateTime, UTCTime }) {
+  function formDate({ year, dateTime, UTCTimeZone }) {
     let arr = [dateTime];
     if (year) arr.unshift(year);
-    if (UTCTime) arr.push("Z");
+    if (UTCTimeZone) arr.push("Z");
     return arr.join(" ");
+  }
+
+  function setTimeToZero(d) {
+    return new Date(d).setUTCHours(0, 0, 0)
+  }
+
+  function getNumDays(x) {
+    return (x / (24*60*60*1000))
+  }
+
+  function setDayOfYear(d, n) {
+    let diff = (setTimeToZero(d) - setTimeToZero(n))
+    return getNumDays(diff)
   }
 
   function saveThisDate(thisDate, format) {
@@ -114,4 +127,4 @@ function saveDate({ year, date, UTCTime, format, lang }) {
     return date;
   }
   
-export { sunPhases, monthNames, moonTerms, saveDate };
+export { sunPhases, monthNames, moonTerms, saveDate, setTimeToZero, setDayOfYear };
