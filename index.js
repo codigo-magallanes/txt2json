@@ -1,6 +1,13 @@
 import dataOBJ from "./js/dataBase.js";
-import { linesToArray, dataToSunPhases, addNSCDates } from "./sources/astropixels/index.js";
-import { linesToData, dataToMoonPhases } from "./sources/calendario365/index.js";
+import {
+  linesToArray,
+  dataToSunPhases,
+  addNSCDates
+} from "./sources/astropixels/index.js";
+import {
+  linesToData,
+  dataToMoonPhases
+} from "./sources/calendario365/index.js";
 
 let astroData = {
   docs: [],
@@ -22,8 +29,13 @@ function getTextLines(data) {
 }
 
 function addData(obj) {
-  console.log({ obj });
-  astroData = { ...astroData, ...obj };
+  console.log({
+    obj
+  });
+  astroData = {
+    ...astroData,
+    ...obj
+  };
   return astroData;
 }
 
@@ -37,12 +49,11 @@ function showData(data) {
 //promise.then(x => { console.log(x)}).finally(showData)
 // for every source prints dataOBJ in screen.
 // need to fix so it only prints and logs info once
-let source;
 let files = []
-for (source in dataOBJ.sources) {
-  let temp = dataOBJ.sources[source]['files']
-  if (temp != undefined) {
-    temp.forEach((url) => files.push(fetch(`${url}`)))
+for (let source in dataOBJ.sources) {
+  let filesArr = dataOBJ.sources[source]['files']
+  if (filesArr != undefined) {
+    filesArr.forEach((url) => files.push(fetch(`${url}`)))
   }
 }
 
@@ -60,16 +71,21 @@ then(function (responses) {
 }).then(function (arr) {
   arr.forEach((doc) => {
     if (doc.url.includes('/astropixels/')) {
-      let lines = getTextLines(doc.txt)
-      let data = linesToArray(lines)
-      let sunData = dataToSunPhases(data)
-      let obj = addNSCDates(sunData)
-      addData(obj)
+      let data = linesToArray(
+        getTextLines(doc.txt)
+      )
+      addData(
+        addNSCDates(
+          dataToSunPhases(data)
+          )
+        )
     } else if (doc.url.includes('/calendario365/')) {
-      let lines = getTextLines(doc.txt)
-      let data = linesToData(lines)
-      let obj = dataToMoonPhases(data)
-      addData(obj)
+      let data = linesToData(
+        getTextLines(doc.txt)
+        )
+      addData(
+        dataToMoonPhases(data)
+        )
     } else {
       console.log(`need new code to extract infor from:\n ${doc.url}`)
     }
