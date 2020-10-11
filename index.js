@@ -10,7 +10,6 @@ import {
 } from "./sources/calendario365/index.js";
 
 let astroData = {
-  docs: [],
   sun: {},
   moon: {}
 };
