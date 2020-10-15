@@ -1,6 +1,6 @@
 import { sunPhases, saveDate, setTimeToZero, setDayOfYear } from '/js/dates.js'
+import { componerAsync, getTextLines, muestraDatos } from '/js/utils.js'
 
-let sunData = {}
 // ASTROPIXELS
 function linesToArray(arr) {
   return arr.map((line) =>
@@ -12,7 +12,8 @@ function linesToArray(arr) {
 }
 
 function dataToSunPhases(arr) {
-  let obj = {}, i, year;
+  let sunData = {};
+  let i, year
   arr.forEach((a) => {
     year = Number(a[0]);
     if (year > 0) {
@@ -33,7 +34,7 @@ function dataToSunPhases(arr) {
     } else {
     }
   });
-  console.log({sunData})
+  console.log({ sunData })
   return sunData;
 }
 
@@ -51,10 +52,15 @@ function addNSCDates(sunData) {
     obj[sunPhases[3]]['day'] = setDayOfYear(obj[sunPhases[3]].gregDate, newYearsDate)
 
     //newYearsDate = new Date(d.getFullYear(), d.getMonth() - 1, d.getDate())
-    console.log({year, newYearsDate, obj})
+    //console.log({year, newYearsDate, obj})
     sunData[year] = obj
   }
+  console.log({ sun: sunData })
   return { sun: sunData }
 }
 
-export { dataToSunPhases, linesToArray, addNSCDates };
+
+const astroPixelsFuncs = componerAsync(getTextLines, linesToArray, dataToSunPhases, addNSCDates, muestraDatos);
+
+
+export { astroPixelsFuncs };

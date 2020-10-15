@@ -1,7 +1,7 @@
 # Save data from txt file to JSON
 ## Use
  It fills an object with info about the Sun and the Moon extracted from text files.
- The sources to create the object are defined in _js/dataBase.js_ like:
+ The sources to create the object are defined in _sources/sources.js_ like:
  ```js
  export default {
   "sources": {
@@ -17,12 +17,6 @@
       "files": [
         "/sources/calendario365/moon_2020(calendario365).txt",
         "/sources/calendario365/moon_2021(calendario365).txt"
-      ]
-    },
-    "newSource": {
-      "url": "http:///example.com",
-      "files": [
-        "/sources/newsource/example.txt"
       ]
     }
   }

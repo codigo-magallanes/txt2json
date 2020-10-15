@@ -1,5 +1,23 @@
 # txt2JSON
 
+## v0.3.1
+
+### Changes
+
+ - index.js is now main.js
+ - dateBase.js is now /sources/sources.js
+
+### New
+
+ - New utils.js file with reusable functions
+ - Output to screen of results
+ - New reusable composition function to chain actions
+
+    ``` js
+    const aplicarAsync = (acc,val) => acc.then(val);
+    const componerAsync = (...funcs) => x => funcs.reduce(aplicarAsync, Promise.resolve(x));
+    ```
+
 ## v0.2.1
 
 ### Fixed
