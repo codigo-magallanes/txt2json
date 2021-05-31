@@ -78,7 +78,9 @@ function monthNameToEng(lang, dateTime) {
     });
     return dateTime;
   }
-    
+
+// It takes dates in different formats from the Moon and Sun pages
+// and it only processes correctly the dates of the Moon.
 function saveDate({ year, date, UTCTimeZone, format, lang }) {
     let dateTime = lang ? monthNameToEng(lang, date) : date;
     let setDate = formDate({ year, dateTime, UTCTimeZone });

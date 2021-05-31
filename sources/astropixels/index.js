@@ -2,6 +2,11 @@ import { sunPhases, saveDate, setTimeToZero, setDayOfYear } from '/js/dates.js'
 import { componerAsync, getTextLines, muestraDatos } from '/js/utils.js'
 
 // ASTROPIXELS
+
+// Splits every line into arrays.
+// Takes out extra spaces
+// Substitutes 5 or 6 consecutive spaces for a ','
+// Creates the array with 'arr.map()'
 function linesToArray(arr) {
   return arr.map((line) =>
     line
@@ -11,6 +16,7 @@ function linesToArray(arr) {
   );
 }
 
+// Takes the elements of each line and formats them into an object 'sunData'
 function dataToSunPhases(arr) {
   let sunData = {};
   let i, year
@@ -26,7 +32,10 @@ function dataToSunPhases(arr) {
           UTCTimeZone: '000Z',
           format: "json",
         };
+        
+        // Dates are not collected correctly here
         gregDate = saveDate(obj);
+        console.log({gregDate})
 
         phases[sunPhases[i]] = { gregDate };
       }
@@ -34,7 +43,6 @@ function dataToSunPhases(arr) {
     } else {
     }
   });
-  console.log({ sunData })
   return sunData;
 }
 
