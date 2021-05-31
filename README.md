@@ -1,7 +1,10 @@
 # Save data from txt file to JSON
+
 ## Use
+
  It fills an object with info about the Sun and the Moon extracted from text files.
  The sources to create the object are defined in _sources/sources.js_ like:
+
  ```js
  export default {
   "sources": {
@@ -22,9 +25,21 @@
   }
 }
 ```
+
 It contains the details of the sources where the data is obtained from.
 The code adds new properties with data of the _Sun_ and of the _Moon_
+
 ## Data text files
+
 The info has been copied from the websites and pasted to a plain text file.
+
+## To do
+
+I don't think I will fix it but I want to keep the code for the different solutions found to create it.
+
+ - Data of the Sun is not well formated (date not recognized).
+ - It prints the first documento of the Sun twice
+
 ## Notes
+
 All help is well appreciated.
